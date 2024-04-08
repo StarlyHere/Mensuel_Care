@@ -1,6 +1,6 @@
 import Navbar from "@/components/navbar";
 import { Inter } from "next/font/google";
-import Chat from "../components/Chat";
+import Chat from "./Chat";
 import SignUp from "../pages/SignUp";
 import Login from "../pages/Login";
 
