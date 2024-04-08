@@ -16,6 +16,11 @@
   }
 }
 
+body{
+  background-color: #ffd5dc;
+  color: #ac1e44;
+  
+}
 
 @layer utilities {
   .text-balance {
