@@ -23,7 +23,6 @@ export default function Landing() {
         </div>
       </div>
       <div style={{ position: "relative" }}>
-        {" "}
         {/* Added relative positioning container */}
         <img
           src="wave.png"
@@ -39,7 +38,6 @@ export default function Landing() {
             color: "white",
             fontSize: "25px",
             fontWeight: "bold",
-            
           }}
         >
           OUR VISION
@@ -47,15 +45,80 @@ export default function Landing() {
         <p
           style={{
             position: "absolute",
-            top: "55%", 
+            top: "55%",
             left: "50%",
             transform: "translate(-50%, -50%)",
             color: "white",
             fontSize: "15px",
           }}
         >
-          ✨ Our website is like your ultimate bestie, here to help you conquer those period challenges! 🎀 We're your go-to for all the tips and tricks to make your period a total breeze! 🌸
+          ✨ Our website is like your ultimate bestie, here to help you conquer those period challenges! We're your go-to for all the tips and tricks to make your period a total breeze! 
         </p>
+      </div>
+      <div style={{ marginTop: "270px", fontWeight: "bolder", fontFamily: "sans-serif" }}>
+        <h1 className="text-5xl flex justify-center">FEATURED PAGES</h1>
+      </div>
+      <div class="grid grid-cols-3 gap-4 justify-items-center mt-20">
+        <div style={{ position: "relative" }}>
+          <img
+            style={{ width: "270px", height: "270px" }}
+            src="tile.png"
+            alt="Tile 1"
+          />
+          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "20px", fontWeight: "bold" }}>
+            MOOD ANALYSIS 🎭
+          </span>
+        </div>
+        <div style={{ position: "relative" }}>
+          <img
+            style={{ width: "270px", height: "270px" }}
+            src="darktile.png"
+            alt="Tile 2"
+          />
+          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "20px", fontWeight: "bold" }}>
+            PERIOD TRACKER 📅
+          </span>
+        </div>
+        <div style={{ position: "relative" }}>
+          <img
+            style={{ width: "270px", height: "270px" }}
+            src="tile.png"
+            alt="Tile 3"
+          />
+          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "20px", fontWeight: "bold" }}>
+            MY FIRST PERIOD GUIDE 📕
+          </span>
+        </div>
+        <div style={{ position: "relative" }}>
+          <img
+            style={{ width: "270px", height: "270px" }}
+            src="darktile.png"
+            alt="Tile 4"
+          />
+          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "20px", fontWeight: "bold" }}>
+            EXERCISES 🏋️‍♀️
+          </span>
+        </div>
+        <div style={{ position: "relative" }}>
+          <img
+            style={{ width: "270px", height: "270px" }}
+            src="tile.png"
+            alt="Tile 5"
+          />
+          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "20px", fontWeight: "bold" }}>
+            DIETS 🥗
+          </span>
+        </div>
+        <div style={{ position: "relative" }}>
+          <img
+            style={{ width: "270px", height: "270px" }}
+            src="darktile.png"
+            alt="Tile 6"
+          />
+          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "20px", fontWeight: "bold" }}>
+            SOS 🆘
+          </span>
+        </div>
       </div>
     </>
   );
