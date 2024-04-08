@@ -1,3 +1,4 @@
+import Landing from "@/pages/landing";
 import Navbar from "@/components/navbar";
 import { Inter } from "next/font/google";
 
@@ -8,6 +9,7 @@ export default function Home() {
   return (
     <>
     <Navbar/>
+
     </>
   );
 }
