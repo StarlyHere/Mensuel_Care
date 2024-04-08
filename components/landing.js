@@ -39,6 +39,7 @@ export default function Landing() {
             color: "white",
             fontSize: "25px",
             fontWeight: "bold",
+            
           }}
         >
           OUR VISION
@@ -50,10 +51,10 @@ export default function Landing() {
             left: "50%",
             transform: "translate(-50%, -50%)",
             color: "white",
-            fontSize: "20px",
+            fontSize: "15px",
           }}
         >
-          hello guys
+          ✨ Our website is like your ultimate bestie, here to help you conquer those period challenges! 🎀 We're your go-to for all the tips and tricks to make your period a total breeze! 🌸
         </p>
       </div>
     </>
