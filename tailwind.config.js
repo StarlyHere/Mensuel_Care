@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        customColor: '#ac1e44',
+        customHoverColor: '#ffd5dc',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -14,5 +18,6 @@ module.exports = {
       },
     },
   },
+  variants: {},
   plugins: [],
 };
