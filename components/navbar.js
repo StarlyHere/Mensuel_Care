@@ -1,4 +1,5 @@
 import React from 'react';
+import Sidebar from './Sidebar';
 
 
 export default function Navbar() {
@@ -9,7 +10,8 @@ export default function Navbar() {
         src='logo.png'
         alt="Logo"
       />
-      <div className="flex space-x-4 mr-2">
+      
+      <div className="flex space-x-4 mr-10">
       <button className="hover:text-customColor hover:bg-transparent bg-customColor text-white rounded-full px-4 py-2 transition-colors duration-300">
           <a href="/">Home</a>
         </button>
@@ -17,14 +19,18 @@ export default function Navbar() {
           About
         </button>
         <button className="hover:text-customColor hover:bg-transparent bg-customColor text-white rounded-full px-4 py-2 transition-colors duration-300">
+        <a href="/donation"> 
           Donate
+          </a>
         </button>
 
-        <button className="hover:text-customColor hover:bg-transparent bg-customColor text-white rounded-full px-4 py-2 transition-colors duration-300">
+        <button className="hover:text-customColor hover:bg-transparent bg-customColor text-white rounded-full px-4 py-2 transition-colors duration-300 ">
           <a href="/SignUp"> 
           Login
           </a>
         </button>
+
+        <Sidebar/>
       </div>
     </div>
   );
