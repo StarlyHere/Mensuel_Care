@@ -1,6 +1,6 @@
 import Landing from "@/components/landing";
 import Navbar from "@/components/navbar";
-import Sidebar from "@/components/Sidebar";
+
 import { Inter } from "next/font/google";
 import Chat from "./Chat";
 
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
     <Navbar/>
-    <Sidebar/>
+  
     <Landing/>
     <Chat/>
     </>
