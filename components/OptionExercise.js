@@ -10,7 +10,7 @@ export default function OptionExercise() {
             border: "5px",
             borderBlockColor: "#ac1e44",
         }}
-        
+        className="transition-transform transform-gpu hover:scale-110"
         /></a>
         
 
@@ -19,6 +19,7 @@ export default function OptionExercise() {
             height: "500px",
             width: "375",
         }}
+        className="transition-transform transform-gpu hover:scale-110"
         /></a>
 
         

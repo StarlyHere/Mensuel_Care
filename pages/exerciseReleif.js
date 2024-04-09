@@ -17,6 +17,7 @@ export default function ExerciseReleif() {
           marginTop: "200px",
           marginBottom: "300px",
         }}
+        className="transition-transform transform-gpu hover:scale-105"
       />
         </a>
       <Releif/>

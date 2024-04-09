@@ -7,6 +7,8 @@ import {
  MdOutlineIntegrationInstructions,
  MdOutlineSettings,
  MdOutlineLogout,
+ MdAddShoppingCart,
+ MdOutlineHealthAndSafety,
 } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { FaRegComments } from "react-icons/fa";
@@ -71,6 +73,24 @@ function Sidebar() {
                      </h3>
                    </a>
 
+
+                   <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-pink-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+                     <MdOutlineHealthAndSafety className="text-2xl  group-hover:text-white " />
+                     <h3 className="text-base  group-hover:text-white font-semibold ">
+                     <a href="/Maps">
+                       Hospitals Nearby
+                       </a>
+                     </h3>
+                   </div>
+
+                   <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-pink-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+                     <MdAddShoppingCart className="text-2xl  group-hover:text-white " />
+                     <h3 className="text-base  group-hover:text-white font-semibold ">
+                     <a href="/Pharmacy">
+                       Pharmacy Nearby
+                       </a>
+                     </h3>
+                   </div>
 
                    <a href="/blogs" class="flex mb-2 justify-start items-center gap-4 pl-5 hover:bg-pink-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
     <MdOutlineAnalytics className="text-2xl group-hover:text-white" />
