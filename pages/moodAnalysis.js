@@ -1,5 +1,5 @@
 import Navbar from '@/components/Navbar';
-import Banner from '@/components/Banner';
+import Banner from '@/components/banner';
 import React, { useState, useEffect } from 'react';
 import Sentiment from 'sentiment';
 
