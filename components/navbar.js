@@ -17,7 +17,9 @@ export default function Navbar() {
           About
         </button>
         <button className="hover:text-customColor hover:bg-transparent bg-customColor text-white rounded-full px-4 py-2 transition-colors duration-300">
+        <a href="/donation"> 
           Donate
+          </a>
         </button>
 
         <button className="hover:text-customColor hover:bg-transparent bg-customColor text-white rounded-full px-4 py-2 transition-colors duration-300">
