@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebar from './Sidebar';
 
+
 export default function Navbar() {
   return (
     <div className="flex justify-between items-center p-4">

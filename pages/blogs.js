@@ -5,7 +5,6 @@ const Blogs = () => {
   return (
     <div>
       <Navbar/>
-    
       <div className="flex justify-center"> 
         <div className="space-y-8" style={{ width: '70vw' }}> 
           {/* First Row */}

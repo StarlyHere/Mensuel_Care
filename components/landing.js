@@ -12,7 +12,7 @@ export default function Landing() {
           <p className="mt-2 text-xl">
             Menstruation lasts for around two to seven days each month. People
             who menstruate will continue to bleed for 3,500 days in their lives,
-            yet menstruation remains stigmatized.
+            yet menstruation remains stigmatized
           </p>
         </div>
         <div>
@@ -59,7 +59,7 @@ export default function Landing() {
       <div style={{ marginTop: "270px", fontWeight: "bolder", fontFamily: "sans-serif" }}>
         <h1 className="text-5xl flex justify-center">FEATURED PAGES</h1>
       </div>
-      <div class="grid grid-cols-3 gap-4 justify-items-center mt-20">
+      <div className="grid grid-cols-3 gap-4 justify-items-center mt-20">
         <div style={{ position: "relative" }}>
           <img
             style={{ width: "270px", height: "270px" }}
