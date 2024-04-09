@@ -108,7 +108,9 @@ function Sidebar() {
                    <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-pink-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                      <MdOutlineIntegrationInstructions className="text-2xl  group-hover:text-white " />
                      <h3 className="text-base group-hover:text-white font-semibold ">
-                       Integration
+                        <a href='/Doctors'>
+                       Appointments
+                       </a>
                      </h3>
                    </div>
                  </div>
