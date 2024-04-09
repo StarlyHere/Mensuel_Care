@@ -12,7 +12,7 @@ export default function Landing() {
           <p className="mt-2 text-xl">
             Menstruation lasts for around two to seven days each month. People
             who menstruate will continue to bleed for 3,500 days in their lives,
-            yet menstruation remains stigmatized.
+            yet menstruation remains stigmatized
           </p>
         </div>
         <div>
