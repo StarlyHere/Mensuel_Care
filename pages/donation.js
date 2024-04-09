@@ -17,7 +17,7 @@ const Donate = () => {
                 Pinkishe Foundation is on a mission to end period poverty, 
                 normalize menstruation, and promote menstrual literacy.
               </p>
-              <button className="mt-10 bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">Donate</button>
+              <button className="mt-10 bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded"><a href="https://pages.razorpay.com/pinkishe-donate">Donate</a></button>
             </div>
             <div className="w-1/3 flex justify-end"> 
               <img src="../d1.svg" alt="Image 1" className="w-full h-auto rounded-lg" />

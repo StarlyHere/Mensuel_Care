@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
     <Navbar/>
-  
+   
     <Landing/>
     <Chat/>
     </>
