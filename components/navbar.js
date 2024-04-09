@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import Landing from "./landing";
 
 export default function Navbar() {
@@ -11,19 +10,20 @@ export default function Navbar() {
         alt="Logo"
       />
       <div className="flex space-x-4 mr-2">
-        <button className="text-customColor bg-transparent hover:bg-customColor hover:text-white rounded-full px-4 py-2 transition-colors duration-300">
+      <button className="hover:text-customColor hover:bg-transparent bg-customColor text-white rounded-full px-4 py-2 transition-colors duration-300">
           <a href="/">Home</a>
         </button>
-        <button className="text-customColor bg-transparent hover:bg-customColor hover:text-white rounded-full px-4 py-2 transition-colors duration-300">
+        <button className="hover:text-customColor hover:bg-transparent bg-customColor text-white rounded-full px-4 py-2 transition-colors duration-300">
           About
         </button>
-        <button className="text-customColor bg-transparent hover:bg-customColor hover:text-white rounded-full px-4 py-2 transition-colors duration-300">
+        <button className="hover:text-customColor hover:bg-transparent bg-customColor text-white rounded-full px-4 py-2 transition-colors duration-300">
           Donate
         </button>
-        <button className="text-customColor bg-transparent hover:bg-customColor hover:text-white rounded-full px-4 py-2 transition-colors duration-300">
-          <Link href="/SignUp"> 
+
+        <button className="hover:text-customColor hover:bg-transparent bg-customColor text-white rounded-full px-4 py-2 transition-colors duration-300">
+          <a href="/SignUp"> 
           Login
-          </Link>
+          </a>
         </button>
       </div>
     </div>
