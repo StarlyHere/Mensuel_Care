@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { DateRangePicker } from 'react-date-range';
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
-import Navbar from '@/components/navbar';
+import Navbar from '@/components/Navbar';
 const PeriodTracker = () => {
   const [startDate, setStartDate] = useState(null);
   const [periodDays, setPeriodDays] = useState(5); // Default period duration

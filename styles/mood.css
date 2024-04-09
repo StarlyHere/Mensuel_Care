@@ -1,0 +1,58 @@
+.MoodAnalysis {
+    text-align: center;
+  }
+  
+  .MoodAnalysis-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .MoodAnalysis-header {
+    
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Horizontally center within the column */
+    justify-content: center; /* Vertically center within the column (optional) */
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  input[type="text"] {
+    background: transparent;
+    border: 1px solid #ac1e44;
+    padding: 14px 21px;
+    border-radius: 50px;
+    color: #fff;
+    width: 300px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 15px; /* Adjust margin for spacing */
+  }
+  
+  input[type="text"]::placeholder {
+    color: #fff;
+  }
+  
+  p.icon {
+    font-size: 61px; /* Adjust font size as needed */
+  }
+  
+  .result {
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap;
+  }
+  
+  span.positive {
+    background: #4CAF50;
+  }
+  
+  .result span {
+    font-size: 15px;
+    padding: 3px 12px;
+    border-radius: 7px;
+    text-transform: capitalize;
+  }
+  
+  span.negative {background: #F44336;}
+  
