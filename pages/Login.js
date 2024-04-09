@@ -1,7 +1,6 @@
-// pages/login.js
-
 import { useState } from 'react';
 import Link from 'next/link';
+import Navbar from "../components/navbar";
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -13,7 +12,9 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-rose-200 to-rose-300">
+    <div className="min-h-screen items-center justify-center bg-gradient-to-r from-[#ffd5dc] to-[#ffabb9]">
+    <Navbar/>
+    <div className='flex min-h-screen items-center justify-center'>
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md ">
         <h2 className="text-3xl font-semibold text-gray-800 text-center mb-6">Log in</h2>
         <form onSubmit={handleLogin}>
@@ -64,6 +65,7 @@ const Login = () => {
           </div>
         </form>
       </div>
+    </div>
     </div>
   );
 };
