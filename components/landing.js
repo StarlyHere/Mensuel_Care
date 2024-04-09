@@ -66,9 +66,10 @@ export default function Landing() {
             src="tile.png"
             alt="Tile 1"
           />
-          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "20px", fontWeight: "bold" }}>
-            MOOD ANALYSIS 🎭
+          <span class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-8xl font-bold ">
+            🎭
           </span>
+
         </div>
         <div style={{ position: "relative" }}>
           <img
@@ -76,9 +77,10 @@ export default function Landing() {
             src="darktile.png"
             alt="Tile 2"
           />
-          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "20px", fontWeight: "bold" }}>
-            PERIOD TRACKER 📅
+          <span class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-8xl font-bold">
+          📅
           </span>
+          
         </div>
         <div style={{ position: "relative" }}>
           <img
@@ -86,8 +88,8 @@ export default function Landing() {
             src="tile.png"
             alt="Tile 3"
           />
-          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "20px", fontWeight: "bold" }}>
-            MY FIRST PERIOD GUIDE 📕
+          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "80px", fontWeight: "bold" }}>
+            📕
           </span>
         </div>
         <div style={{ position: "relative" }}>
@@ -96,8 +98,8 @@ export default function Landing() {
             src="darktile.png"
             alt="Tile 4"
           />
-          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "20px", fontWeight: "bold" }}>
-            EXERCISES 🏋️‍♀️
+          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "80px", fontWeight: "bold" }}>
+            🏋️‍♀️
           </span>
         </div>
         <div style={{ position: "relative" }}>
@@ -106,8 +108,8 @@ export default function Landing() {
             src="tile.png"
             alt="Tile 5"
           />
-          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "20px", fontWeight: "bold" }}>
-            DIETS 🥗
+          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "80px", fontWeight: "bold" }}>
+           🥗
           </span>
         </div>
         <div style={{ position: "relative" }}>
@@ -116,8 +118,8 @@ export default function Landing() {
             src="darktile.png"
             alt="Tile 6"
           />
-          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "20px", fontWeight: "bold" }}>
-            SOS 🆘
+          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "80px", fontWeight: "bold" }}>
+            🆘
           </span>
         </div>
       </div>
