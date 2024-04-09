@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
+import Navbar from "../components/navbar";
 
 const Signup = () => {
   const [email, setEmail] = useState('');
@@ -7,11 +8,13 @@ const Signup = () => {
 
   const handleSignup = (e) => {
     e.preventDefault();
-    // Your signup logic here
+ 
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-rose-200 to-rose-300">
+    <div className="min-h-screen items-center justify-center bg-gradient-to-r from-[#ffd5dc] to-[#ffabb9]">
+    <Navbar/>
+    <div className='flex min-h-screen items-center justify-center'>
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
         <h2 className="text-3xl font-semibold text-gray-800 text-center mb-6">Sign up</h2>
         <form onSubmit={handleSignup}>
@@ -63,6 +66,7 @@ const Signup = () => {
             </div>
           </div>
         </form>
+      </div>
       </div>
     </div>
   );
