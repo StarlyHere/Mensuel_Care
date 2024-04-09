@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from 'next/link';
+import Landing from "./landing";
 
 export default function Navbar() {
   return (
@@ -10,7 +12,7 @@ export default function Navbar() {
       />
       <div className="flex space-x-4 mr-2">
         <button className="text-customColor bg-transparent hover:bg-customColor hover:text-white rounded-full px-4 py-2 transition-colors duration-300">
-          Home
+          <a href="/">Home</a>
         </button>
         <button className="text-customColor bg-transparent hover:bg-customColor hover:text-white rounded-full px-4 py-2 transition-colors duration-300">
           About
@@ -19,7 +21,9 @@ export default function Navbar() {
           Donate
         </button>
         <button className="text-customColor bg-transparent hover:bg-customColor hover:text-white rounded-full px-4 py-2 transition-colors duration-300">
+          <Link href="/SignUp"> 
           Login
+          </Link>
         </button>
       </div>
     </div>
