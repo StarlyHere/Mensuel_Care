@@ -16,7 +16,8 @@ export default function Navbar() {
           <a href="/">Home</a>
         </button>
         <button className="hover:text-customColor hover:bg-transparent bg-customColor text-white rounded-full px-4 py-2 transition-colors duration-300">
-          About
+          <a href='/Doctors'>Appointment</a>
+          
         </button>
         <button className="hover:text-customColor hover:bg-transparent bg-customColor text-white rounded-full px-4 py-2 transition-colors duration-300">
         <a href="/donation"> 

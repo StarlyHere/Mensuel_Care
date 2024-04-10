@@ -33,7 +33,7 @@ function Sidebar() {
                 {/* Sidebar content */}
                 <div className="flex flex-col justify-start item-center">
                   <h1 className="text-xl text-center cursor-pointer font-bold border-b border-gray-100 pb-4 w-full">
-                    DASHBOARD
+                    MENSUEL CARE
                   </h1>
 
                   <div className=" my-4 border-b border-gray-100 pb-4">
@@ -122,19 +122,11 @@ function Sidebar() {
                      </h3>
                    </div>
 
-                   <a href="/blogs" class="flex mb-2 justify-start items-center gap-4 pl-5 hover:bg-pink-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-    <MdOutlineAnalytics className="text-2xl group-hover:text-white" />
-    <h3 class="text-base group-hover:text-white font-semibold">Blogs</h3>
-</a>
+                   
 
 
 
-                   <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-pink-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-                     <BiMessageSquareDots className="text-2xl  group-hover:text-white " />
-                     <h3 className="text-base  group-hover:text-white font-semibold ">
-                       Messages
-                     </h3>
-                   </div>
+                   
                    <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-pink-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                      <MdOutlineIntegrationInstructions className="text-2xl  group-hover:text-white " />
                      <h3 className="text-base group-hover:text-white font-semibold ">
