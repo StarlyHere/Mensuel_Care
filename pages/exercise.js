@@ -1,5 +1,5 @@
 import Fitness from "@/components/Fitness";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/navbar";
 import OptionExercise from "@/components/OptionExercise";
 import Releif from "@/components/Releif";
 import React from "react";

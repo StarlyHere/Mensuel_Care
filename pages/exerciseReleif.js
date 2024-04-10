@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/navbar'
 import Releif from '@/components/Releif'
 import React from 'react'
 

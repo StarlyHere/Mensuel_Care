@@ -1,10 +1,11 @@
 import Landing from "@/components/Landing";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/navbar";
 import { Inter } from "next/font/google";
 import Chat from "./Chat";
 import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
+
 
 export default function Home() {
   return (

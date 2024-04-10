@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import AppointmentWidget from '../components/Appointment';
 import UpcomingAppointments from '../components/UpcomingAppointment';
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/navbar';
 
 const Booking = () => {
   const [appointments, setAppointments] = useState([]);

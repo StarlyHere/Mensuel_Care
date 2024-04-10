@@ -1,5 +1,5 @@
 import Fitness from '@/components/Fitness'
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/navbar'
 import React from 'react'
 
 export default function ExerciseFitness() {

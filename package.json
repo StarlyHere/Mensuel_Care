@@ -17,6 +17,7 @@
     "@headlessui/react": "^1.7.18",
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.15.15",
+    "@react-pdf/renderer": "^3.4.2",
     "axios": "^1.6.8",
     "dayschedule-widget": "^1.2.0",
     "firebase": "^10.10.0",
