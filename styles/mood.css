@@ -19,18 +19,21 @@
   
   input[type="text"] {
     background: transparent;
-    border: 1px solid #ac1e44;
+    border: 3px solid #ac1e44;
     padding: 14px 21px;
     border-radius: 50px;
-    color: #fff;
-    width: 300px;
+    color:#ac1e44;
+    width: 500px;
+    height: 200px;
     text-align: center;
+    
     font-size: 17px;
     margin-bottom: 15px; /* Adjust margin for spacing */
   }
   
   input[type="text"]::placeholder {
-    color: #fff;
+    color:  #ac1e44
+    ;
   }
   
   p.icon {
