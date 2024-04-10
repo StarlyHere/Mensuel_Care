@@ -1,15 +1,14 @@
 import React from "react";
 
-
 export default function Landing() {
   return (
     <>
-      <div className="flex justify-center gap-24 mt-20">
-        <div className="max-w-md flex-shrink-0 h-full mt-20">
-          <h1 className="text-5xl font-bold">Yes, we bleed.</h1>
+      <div className="flex flex-col md:flex-row justify-center items-center md:gap-24 mt-20">
+        <div className="max-w-md flex-shrink-0 h-full mt-20 md:mt-0">
+          <h1 className="text-5xl font-bold text-center ml-12 md:text-left">Yes, we bleed.</h1>
           <br />
           <br />
-          <p className="mt-2 text-xl">
+          <p className="mt-2 ml-10 text-xl text-center md:text-left">
             Menstruation lasts for around two to seven days each month. People
             who menstruate will continue to bleed for 3,500 days in their lives,
             yet menstruation remains stigmatized
@@ -17,23 +16,23 @@ export default function Landing() {
         </div>
         <div>
           <img
-            style={{ width: "550px", height: "550px", objectFit: "cover", marginBottom: "250px" }}
+            className="w-full md:w-550px h-auto mb-8 md:mb-0"
             src="no.png"
             alt="Women"
           />
         </div>
       </div>
       <div style={{ position: "relative" }}>
-        {/* Added relative positioning container */}
         <img
           src="wave.png"
           alt="Wave"
-          style={{ height: "450px", width: "1446px" }}
+          className="w-full h-auto"
+          style={{ height: "450px" }}
         />
         <p
           style={{
             position: "absolute",
-            top: "40%", // Adjusted top position for the first paragraph
+            top: "40%",
             left: "50%",
             transform: "translate(-50%, -50%)",
             color: "white",
@@ -53,7 +52,7 @@ export default function Landing() {
             fontSize: "15px",
           }}
         >
-          ✨ Our website is like your ultimate bestie, here to help you conquer those period challenges! We're your go-to for all the tips and tricks to make your period a total breeze! 
+          ✨ Our website is like your ultimate bestie, here to help you conquer those period challenges!! We're your go-to for all the tips and tricks to make your period a total breeze! 
         </p>
       </div>
       <div style={{ marginTop: "270px", fontWeight: "bolder", fontFamily: "sans-serif" }}>
