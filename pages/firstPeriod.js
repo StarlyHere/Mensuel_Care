@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import React from "react";
 
@@ -89,6 +90,75 @@ export default function FirstPeriod() {
 
       <p className="text-lg">Remember, girl, you've got this! Your first period might seem like a big deal now, but soon it'll be just another part of your fabulous life. So rock those pads, slay those cramps, and own your period like the queen you are! 🌟</p>
     </div>
+
+    <div className="grid grid-cols-3 gap-4 justify-items-center mt-20">
+        <div style={{ position: "relative" }}>
+          <img
+            style={{ width: "270px", height: "270px" }}
+            src="tile.png"
+            alt="Tile 1"
+          />
+          <span class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-8xl font-bold ">
+          🧘‍♀️
+          </span>
+
+        </div>
+        <div style={{ position: "relative" }}>
+          <img
+            style={{ width: "270px", height: "270px" }}
+            src="darktile.png"
+            alt="Tile 2"
+          />
+          <span class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-8xl font-bold">
+          🛀
+          </span>
+          
+        </div>
+        <div style={{ position: "relative" }}>
+          <img
+            style={{ width: "270px", height: "270px" }}
+            src="tile.png"
+            alt="Tile 3"
+          />
+          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "80px", fontWeight: "bold" }}>
+          🍫
+          </span>
+        </div>
+        <div style={{ position: "relative" }}>
+          <img
+            style={{ width: "270px", height: "270px" }}
+            src="darktile.png"
+            alt="Tile 4"
+          />
+          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "80px", fontWeight: "bold" }}>
+            🏋️‍♀️
+          </span>
+        </div>
+        <div style={{ position: "relative" }}>
+          <img
+            style={{ width: "270px", height: "270px" }}
+            src="tile.png"
+            alt="Tile 5"
+          />
+          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "80px", fontWeight: "bold" }}>
+           🥗
+          </span>
+        </div>
+        <div style={{ position: "relative" }}>
+          <img
+            style={{ width: "270px", height: "270px" }}
+            src="darktile.png"
+            alt="Tile 6"
+          />
+          <span style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", fontSize: "80px", fontWeight: "bold" }}>
+          😴
+          </span>
+        </div>
+      
+      </div>
+      <img src="guideBook.png" className="flex justify-center" style={{height:"650px",width:"650px",marginLeft:"370px", marginTop:"200px", marginBottom:"100px"}}/>
+      <br/><br/><br/><br/>
+      <Footer/>
       
     </>
   );
