@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/navbar';
 
 const Donate = () => {
   return (
@@ -33,7 +33,9 @@ const Donate = () => {
                 CHETNA’s approach to health embraces the life cycle of gender equity within the wide cultural, economical and political environment. 
                 CHETNA recognizes and addresses women’s health issues throughout her life cycle.
               </p>
+              <a href="https://razorpay.com/payment-button/pl_K9pdv17skxgpYu/view/?utm_source=payment_button&utm_medium=button&utm_campaign=payment_button">
               <button className="mt-10 bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">Donate</button>
+              </a>
             </div>
             <div className="w-1/4 flex justify-end"> 
               <img src="../d4.png" alt="Image 2" className="w-full h-auto rounded-lg" />

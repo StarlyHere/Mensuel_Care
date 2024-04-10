@@ -1,5 +1,5 @@
-import Navbar from '@/components/Navbar';
-import Banner from '@/components/Banner';
+import Navbar from '@/components/navbar';
+import Banner from '@/components/banner';
 import React, { useState, useEffect } from 'react';
 import Sentiment from 'sentiment';
 
@@ -33,7 +33,7 @@ export default function MoodAnalysis() {
           value={inputText} 
           onChange={(e) => setInputText(e.target.value)} 
           placeholder='Enter text here' 
-          className={`bg-pink-500 ${placeholderSize}`} // Set dynamic placeholder size
+          className={`bg-pink-500 ${placeholderSize} w-full h-12`} // Adjust width and height of the placeholder
         />
         <div className='result'>
           {

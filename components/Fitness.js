@@ -10,10 +10,10 @@ export default function Fitness() {
   return (
     <div>
       <div className="flex justify-center">
-        <button onClick={() => handleButtonClick("uKEPTDLgSWs")} className="mr-4 border-2 bg-[#ac1e44] border-gray-400 px-6 py-3 rounded-lg text-white hover:bg-gray-200 hover:text-[#ac1e44] transition-transform transform-gpu hover:scale-105">Video 1</button>
-        <button onClick={() => handleButtonClick("OFibSNpw2hE")} className="mr-4 border-2 bg-[#ac1e44] border-gray-400 px-6 py-3 rounded-lg text-white hover:bg-gray-200 hover:text-[#ac1e44] transition-transform transform-gpu hover:scale-105">Video 2</button>
-        <button onClick={() => handleButtonClick("Ub0eQBe54dU")} className="mr-4 border-2 bg-[#ac1e44] border-gray-400 px-6 py-3 rounded-lg text-white hover:bg-gray-200 hover:text-[#ac1e44] transition-transform transform-gpu hover:scale-105">Video 3</button>
-        <button onClick={() => handleButtonClick("ramrjR8pCZ0")} className="mr-4 border-2 bg-[#ac1e44] border-gray-400 px-6 py-3 rounded-lg text-white hover:bg-gray-200 hover:text-[#ac1e44] transition-transform transform-gpu hover:scale-105">Video 4</button>
+        <button onClick={() => handleButtonClick("uKEPTDLgSWs")} className="mr-4 border-2 bg-[#ac1e44] border-gray-400 px-6 py-3 rounded-lg text-white hover:bg-gray-200 hover:text-[#ac1e44] transition-transform transform-gpu hover:scale-105">Fun Dance</button>
+        <button onClick={() => handleButtonClick("OFibSNpw2hE")} className="mr-4 border-2 bg-[#ac1e44] border-gray-400 px-6 py-3 rounded-lg text-white hover:bg-gray-200 hover:text-[#ac1e44] transition-transform transform-gpu hover:scale-105">Fat Burner</button>
+        <button onClick={() => handleButtonClick("Ub0eQBe54dU")} className="mr-4 border-2 bg-[#ac1e44] border-gray-400 px-6 py-3 rounded-lg text-white hover:bg-gray-200 hover:text-[#ac1e44] transition-transform transform-gpu hover:scale-105">HIIT Workout</button>
+        <button onClick={() => handleButtonClick("ramrjR8pCZ0")} className="mr-4 border-2 bg-[#ac1e44] border-gray-400 px-6 py-3 rounded-lg text-white hover:bg-gray-200 hover:text-[#ac1e44] transition-transform transform-gpu hover:scale-105">Cardio</button>
       </div>
       <br />
       <br />
