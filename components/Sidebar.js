@@ -29,7 +29,7 @@ function Sidebar() {
               <p>☰</p>
             </Disclosure.Button>
             <Disclosure.Panel>
-              <div className="p-6 w-1/2 h-screen bg-white z-20 fixed top-0 -left-96 lg:left-0 lg:w-60  peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
+              <div className="p-6 w-1/2 h-screen bg-red-300 z-20 fixed top-0 -left-96 lg:left-0 lg:w-60  peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
                 {/* Sidebar content */}
                 <div className="flex flex-col justify-start item-center">
                   <h1 className="text-xl text-center cursor-pointer font-bold border-b border-gray-100 pb-4 w-full">
