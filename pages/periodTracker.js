@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { DateRangePicker } from 'react-date-range';
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/navbar';
 const PeriodTracker = () => {
   const [startDate, setStartDate] = useState(null);
   const [periodDays, setPeriodDays] = useState(5); // Default period duration
@@ -79,9 +79,6 @@ const PeriodTracker = () => {
           showSelectionPreview={false} // Hide the sidebar with options like "Today", "Yesterday", etc.
         />
       </div>
-      <button onClick={downloadCalendar} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
-          Download Calendar as PDF
-    </button>
     </div>
     </div>
   );

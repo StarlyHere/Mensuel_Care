@@ -1,6 +1,6 @@
 // Import necessary libraries
 import React from 'react';
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/navbar';
 // Google Maps Component
 const MapComponent = () => {
   // Render Google Map component
