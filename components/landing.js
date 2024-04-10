@@ -52,7 +52,7 @@ export default function Landing() {
             fontSize: "15px",
           }}
         >
-          ✨ Our website is like your ultimate bestie, here to help you conquer those period challenges! We're your go-to for all the tips and tricks to make your period a total breeze! 
+          ✨ Our website is like your ultimate bestie, here to help you conquer those period challenges!! We're your go-to for all the tips and tricks to make your period a total breeze! 
         </p>
       </div>
       <div style={{ marginTop: "270px", fontWeight: "bolder", fontFamily: "sans-serif" }}>
