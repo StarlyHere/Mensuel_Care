@@ -104,23 +104,8 @@ function Sidebar() {
 
 
 
-                   <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-pink-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-                     <MdOutlineHealthAndSafety className="text-2xl  group-hover:text-white " />
-                     <h3 className="text-base  group-hover:text-white font-semibold ">
-                     <a href="/Maps">
-                       Hospitals Nearby
-                       </a>
-                     </h3>
-                   </div>
 
-                   <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-pink-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-                     <MdAddShoppingCart className="text-2xl  group-hover:text-white " />
-                     <h3 className="text-base  group-hover:text-white font-semibold ">
-                     <a href="/Pharmacy">
-                       Pharmacy Nearby
-                       </a>
-                     </h3>
-                   </div>
+                   
 
                    
 
@@ -137,14 +122,7 @@ function Sidebar() {
                    </div>
                  </div>
                  {/* setting */}
-                 <div className=" my-4 border-b border-gray-100 pb-4">
-                   <div className="flex mb-2 justify-start items-center gap-4 pl-5 hover:bg-pink-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-                     <MdOutlineSettings className="text-2xl  group-hover:text-white " />
-                     <h3 className="text-base group-hover:text-white font-semibold ">
-                       Settings
-                     </h3>
-                   </div>
-                 </div>
+                 
                </div>
              </div>
            </Disclosure.Panel>
